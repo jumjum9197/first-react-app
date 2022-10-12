@@ -16,21 +16,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-
-function addme() {
-  const shoot = () => {
-    alert("Great Shot!");
-  }
-
-  return (
-    <button onClick={shoot}>Take the shot!</button>
-  );
-}
-
-const you = ReactDOM.createRoot(document.getElementById('mybtn'));
-you.render(<addme />);
-
-              
-
