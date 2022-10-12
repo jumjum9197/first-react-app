@@ -50,7 +50,7 @@ function App() {
     </Row>
     <center>
     <div className="foot">
-      <a href="#" className="temp"> HTML Template</a> <span className="temp" >created with </span> <a href="#" className="temp"> Best Website Builder</a> . 
+      <a href="https://nicepage.com/html-templates" className="temp"> HTML Template</a> <span className="temp" >created with </span> <a href="https://nicepage.com/html-templates" className="temp"> Best Website Builder</a> . 
     </div>
 
     </center>
