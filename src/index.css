@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media(min-width:320px) and (max-width:480px){
+  .rad {
+    border-radius: 50%;
+    position: absolute;
+    top: 124px;
+    left: 28px;
+    width: 320px;
+    height: 320px;
+  }
+  .circle {
+    height: 100px;
+    width: 98px;
+    border-radius: 50%;
+    border: solid green 1px;
+    background-color: green;
+    position: absolute;
+    top: 123px !important;
+    left: 9px !important;
+    z-index: 90;
+  }
+  .my-card {
+    border: 0 !important;
+    margin-top: 457px !important;
+   
+  }
+  .about {
+    margin-top: 56px !important;
+    font-size: 53px !important;
+    margin-left: -101px !important;
+  }
+  .line {
+    height: 0px !important;
+    border: #282c34 solid 1px;
+    width: 324px !important;
+    background-color: black !important;
+    margin-left: -99px !important;
+    margin-top: -33px !important;
+  }
+  .text {
+    color: #999999 !important;
+    letter-spacing: 0px;
+    line-height: 2;
+    font-size: 19px !important;
+    word-wrap: break-word;
+    margin-left: -101px !important;
+    margin-top: 20px;
+  }
+.spoke {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -99px;
+  margin-top: 20px;
+}
+.call {
+  border: 0 !important;
+  margin-left: -95px !important;
+  width: 100px !important;
+  margin-bottom: -100px !important;
+}
+.foot {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  border: black solid 1px;
+  margin-top: 64px !important;
+}
+.temp{
+  margin-top: 10px !important;
+  color: white !important;
+  font-size: 12px;
+padding-top: 10px!important;
+font-display: none;
+}
+/* section{
+  height: 00px !important;
+  } */
+}
